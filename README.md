@@ -20,18 +20,7 @@ print(device.marketingName)   // This prints "iPhone 16 Pro" in case it is runni
 
 ```
 
-There is also the possibility to get the actual device being simulated on a Mac. 
-
-```swift
-let device = Device.init()
-
-print(device.marketingName)                      // This will print "Simulator".
-print(device.simulatedDevice?.marketingName)     // This will print "iPhone 16 Pro" in case you're simulating an iPhone 16 Pro.
-```
-
-## Add new devices
-
-To add new devices there's just one thing that is a must: update the json. There's a nice to do step that is to update also the `Model` enumeration with the new model. This allows to have the property `specificModel` return a `Model`. Otherwise, it will return `.notMapped` and the value of the new model will be present in the `specificModelRaw` property as a `String`. 
+There is also ng`. 
 So, to summarize, the steps are:
 
 1. Add the new device(s) to the json following the current structure.

@@ -1,4 +1,4 @@
-![Logo](Deviice.png)
+
 
 ## Version 3
 
